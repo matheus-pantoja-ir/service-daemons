@@ -1,6 +1,6 @@
 [:back: voltar](/README.md)
 
-# Debian/ubuntu
+# Debian/Ubuntu (sysvinit)
 1. Criar um usuário e o grupo para o serviço
 ```bash
 sudo useradd service_name
@@ -25,17 +25,17 @@ GROUP="myservice_group"
 sudo mv debian /etc/init.d/my_service
 ```
 
-3. Dar a permissão de executavel para o arquivo
+4. Dar a permissão de executavel para o arquivo
 ``` bash
 sudo chmod +x /etc/init.d/my_service
 ```
 
-4. Atualizar o deamon 
+5. Atualizar o deamon 
 ```bash
 update-rc.d my_service defaults
 ```
 
-5. iniciar o serviço
+6. iniciar o serviço
 ```bash 
 service my_service start
 # conferir se esta tudo certo
