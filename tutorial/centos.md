@@ -1,4 +1,4 @@
-[:back: voltar](/)
+[:back: voltar](/README.md)
 # CentOS
 1. Criar um usuário e o grupo para o serviço
 ```bash
