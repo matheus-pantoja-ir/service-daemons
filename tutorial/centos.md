@@ -20,7 +20,7 @@ LOCKFILE="/var/lock/subsys/$APPNAME"
 
 3. renomear o arquivo `centos` para `my_service` e mover para pasta `/etc/init.d`
 ```bash
-sudo mv debian /etc/init.d/my_service
+sudo mv centos /etc/init.d/my_service
 ```
 
 3. Dar a permissão de executavel para o arquivo
