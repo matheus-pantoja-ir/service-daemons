@@ -1,16 +1,12 @@
 # start stop services / daemons
 
-This repo contains some proper working start/stop scripts or damons for a lot of linux distributions or operating systems.
-
-You can find an explanation and instructions in my blog article here:
-
-[How to set up proper start/stop services](http://blog.frd.mn/how-to-set-up-proper-startstop-services-ubuntu-debian-mac-windows/)
+Repositorio com scripts de start/stop ou deamons para algumas distribuições linux e OS.
 
 This provides examples for the following linux distributions (or operating systems):
 
-* Debian and Ubuntu (sysvinit)
+* [Debian/Ubuntu (sysvinit)](/tutorial/debian.md "tutorial para debian e ubuntu") 
 * Ubuntu (upstart)
-* CentOS 6 (sysvinit)
+* [CentOS (sysvinit)](/tutorial/centos.md "tutorial para centos")
 * Arch Linux (systemd)
 * Mac OS X (launchd)
 * Gentoo (runscript)
