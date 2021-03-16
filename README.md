@@ -2,7 +2,7 @@
 
 Repositorio com scripts de start/stop ou deamons para algumas distribuições linux e OS.
 
-This provides examples for the following linux distributions (or operating systems):
+Sumario:
 
 * [Debian/Ubuntu (sysvinit)](/tutorial/debian.md "tutorial para debian e ubuntu") 
 * Ubuntu (upstart)
